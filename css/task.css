@@ -279,7 +279,7 @@ color: rgb(246, 255, 255);
        margin: 0 20px;
        color: aliceblue;
        text-shadow: 0px 0px 2px white;
-       font-size: 40px;
+       font-size: 30px;
        font-weight: bold;
        font-family: monospace;
        background-image: linear-gradient(to right,  rgb(15, 14, 14)50%,  rgb(197, 193, 193));
@@ -504,14 +504,14 @@ color: rgb(246, 255, 255);
      font-weight: 300;
      margin-top: 70px;
      opacity: 1;
-     font-size: 20px;
+     font-size: 16px;
   color: rgb(246, 255, 255);
      
   }
   .last-text p span{
      color: #0ef;
      font-family: monospace;
-     font-size: 20px;
+     font-size: 16px;
   }
   
 }
