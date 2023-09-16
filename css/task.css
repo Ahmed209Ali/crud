@@ -1,0 +1,517 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+#ahmed{
+   background-attachment: fixed;
+   background-size: cover;
+   background-image: url('./wallpaperflare.com_wallpaper\ \(7\).jpg');
+}
+body{
+    background-color: rgb(36, 34, 34);
+    
+}
+ .form .continer{
+    width: 80%;
+    margin:  auto;
+    padding-top: 80px;
+   
+ }
+ .form .continer h1{
+  
+    text-align: center;
+    margin: 0 20px;
+    color: aliceblue;
+    text-shadow: 0px 0px 2px white;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: monospace;
+    background-image: linear-gradient(to right,  rgb(15, 14, 14)50%,  rgb(197, 193, 193));
+    padding: 10px;
+    
+   
+ }
+ .form .continer .card-group{
+    display: block;
+ }
+ .form .continer .card-group .card-group-1 {
+    margin:10px 0px;
+    width: 100%;
+    padding: 10px;
+    align-items: center;
+    text-transform: capitalize;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px 0px white ;
+    text-shadow: 0px 0px 4px rgb(102, 100, 100);
+    font-weight: bold;
+    font-size: 15px;
+    font-family: monospace;
+    cursor: pointer;
+
+ }
+
+
+ .form .continer .card .row{
+   display: flex;
+   justify-content: space-around;
+ }
+
+ .form .continer .card .row .card-group-1 {
+   display: block;
+    cursor: pointer;
+    margin:10px 4px;
+    width: 100%;
+    padding: 10px 45px;
+    align-items: center;
+    text-transform: capitalize;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px 0px white ;
+    text-shadow: 0px 0px 4px rgb(102, 100, 100);
+    font-weight: bold;
+    font-size: 15px;
+    font-family: monospace;
+
+    
+
+ }
+ .form .continer .card .row .card-group-1:hover{
+    box-shadow: 0px 0px 7px 0px rgb(141, 139, 139) ;
+    transform: scale(1.01,1.01);
+
+ }
+
+ .form .continer .card-group .card-group-1:hover{
+    box-shadow: 0px 0px 7px 0px rgb(141, 139, 139) ;
+    transform: scale(1.01,1.01);
+ }
+ .card{
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.419);
+    border-radius: 3px;
+ }
+ .card-body{
+    border-radius: 3px;
+    padding: 10px;
+    background-color: rgba(100, 97, 97, 0.297);
+ }
+ .form .continer .card-group .btn-card{
+    margin:10px 0px;
+    width: 100%;
+    border-radius: 4px;
+    padding:  13px;
+    font-weight: bold;
+    background-color: rgba(6, 50, 60, 0.704);
+    background-image: linear-gradient(to right, red ,  white)
+     ;
+     font-size: 20px;
+    color: aliceblue;
+    text-shadow: 0px 0px 2px white;
+ }
+ .form .continer .card-group .btn-card:hover{
+    color: rgba(6, 50, 60, 0.704);
+    text-shadow: 0px 0px 2px  rgba(6, 50, 60, 0.704);
+    background-color: rgba(127, 255, 212, 0.589);
+    transition: 0.6s;
+ transform: scale(1.01,1.01);cursor: pointer;
+ background-image: linear-gradient(to right, rgb(181, 181, 181) ,  rgb(254, 7, 7))
+   
+ }
+
+ .form .continer .card-group .btn-card-update:hover{
+   color: rgba(6, 50, 60, 0.704);
+   text-shadow: 0px 0px 2px  rgba(6, 50, 60, 0.704);
+   background-color: rgba(48, 55, 56, 0.32);
+   transition: 0.6s;
+transform: scale(1.01,1.01);cursor: pointer;
+background-image: linear-gradient(to right, rgb(82, 127, 145) ,  rgb(22, 54, 53))
+  
+}
+ .contain .contain-1{
+   width: 90%;
+   margin: 90px auto;
+   background-color: black;
+   padding: 20px;
+   border-radius: 3px;
+ }
+ .contain .contain-1 .contain-2{
+   background-color: rgb(173, 173, 145);
+  display: block;
+   padding: 10px;
+   border-radius: 5px;
+ }
+ .contain .contain-1 .contain-2 .table{
+   width: 100%;
+  
+   padding: 10px;
+ }
+ .contain .contain-1 .contain-2 .table tr{
+ font-family: monospace;
+ font-size: 18px;
+ display: flex;
+ justify-content: space-around;
+ width:10px 100%;
+font-weight: 600;
+
+ }
+ .table tr th , td{padding: 10px;}
+ .contain .contain-1 .contain-2 .table thead tr{
+width: 100%;
+font-weight: 600;
+ }
+ .table tbody tr{
+   border-top: 0;
+   font-weight: 600;
+   padding: 10px;
+   border:1px solid rgb(139, 73, 73); ;
+ } 
+ .contain .contain-1 .contain-2 .table tr td{
+border-left:1px solid rgb(139, 73, 73); ;
+border-right:1px solid rgb(139, 73, 73); ;
+width: 100%;
+   padding: 10px;
+   font-weight: 600;
+   text-align: center;
+   align-items: center;
+ }
+ #a1{
+   color: aliceblue;
+   text-align: center;
+   font-size: 30px;
+   align-items: center;
+   text-shadow: 0px 0px 4px rgb(135, 129, 129);
+ }
+ #a1 span{
+   color: black;
+   text-shadow: 0px 0px 2px rgb(0, 0, 0);
+ }
+ #clear{
+   width: 100%;
+   padding: 10px;
+   border-radius: 10px;
+   font-size: 20px;
+   cursor: pointer;
+   background-image: linear-gradient(to right,  rgb(81, 78, 78)40%,  rgb(197, 193, 193));
+ }
+ #clear:hover{
+   text-shadow: 0px 0px 2px  rgba(6, 50, 60, 0.704);
+    background-color: rgba(127, 255, 212, 0.589);
+    transition: 0.7s;
+ transform: scale(1.01,1.01);
+   color: azure;
+   
+   background-image: linear-gradient(to left,  rgb(81, 78, 78)40%,  rgb(197, 193, 193));
+ }
+ i{
+   color: rgb(50, 68, 68);
+   margin:0 5px ;
+   cursor: pointer;
+ }
+
+ .form .continer .card-group .btn-card-update{
+   margin:10px 0px;
+   width: 100%;
+   border-radius: 4px;
+   padding:  13px;
+   font-weight: bold;
+   background-color: rgba(6, 50, 60, 0.704);
+   background-image: linear-gradient(to right, rgb(39, 191, 194) ,  rgb(93, 119, 119))
+    ;
+    font-size: 20px;
+   color: aliceblue;
+   text-shadow: 0px 0px 2px white;
+}
+.invalid{
+   
+   box-shadow: 0px 0px 10px red;
+   border: 2px solid red;
+}
+.invalid_span{
+   display: none;
+   
+}
+.invalid_number{
+   display: none;
+   
+}
+body span{
+   color: rgb(210, 10, 10);
+}
+
+.last-text p{
+   width: 100%;
+   text-align: center;
+   padding: 25px 0;
+   background: rgb(4, 47, 50);
+   font-weight: 300;
+   margin-top: 70px;
+   opacity: 1;
+   font-size: 20px;
+color: rgb(246, 255, 255);
+   
+}
+.last-text p span{
+   color: #0ef;
+   font-family: monospace;
+   font-size: 20px;
+}
+
+@media screen and (max-width : 740px) {
+   #ahmed{
+      background-attachment: fixed;
+      background-size: 100% 100%;
+      background-image: url('./wallpaperflare.com_wallpaper\ \(7\).jpg');
+   }
+   body{
+       background-color: rgb(36, 34, 34);
+       
+   }
+    .form .continer{
+       width: 80%;
+       margin:  auto;
+       padding-top: 80px;
+      
+    }
+    .form .continer h1{
+     
+       text-align: center;
+       margin: 0 20px;
+       color: aliceblue;
+       text-shadow: 0px 0px 2px white;
+       font-size: 40px;
+       font-weight: bold;
+       font-family: monospace;
+       background-image: linear-gradient(to right,  rgb(15, 14, 14)50%,  rgb(197, 193, 193));
+       padding: 10px;
+       
+      
+    }
+   .form .continer .card-group{
+      display: block;
+   }
+   .form .continer .card-group .card-group-1 {
+      margin:5px 0px;
+      width: 100%;
+      padding:  10px;
+      align-items: center;
+      text-transform: capitalize;
+      border-radius: 10px;
+      box-shadow: 0px 0px 3px 0px white ;
+      text-shadow: 0px 0px 4px rgb(102, 100, 100);
+      font-weight: bold;
+      font-size: 15px;
+      font-family: monospace;
+      cursor: pointer;
+  
+   }
+  
+  
+   .form .continer .card .row{
+     display: block;
+     justify-content: space-around;
+   }
+  
+   .form .continer .card .row .card-group-1 {
+     
+      cursor: pointer;
+      margin:10px 0px;
+      width: 100%;
+      padding: 10px;
+      align-items: center;
+      text-transform: capitalize;
+      border-radius: 10px;
+      box-shadow: 0px 0px 3px 0px white ;
+      text-shadow: 0px 0px 4px rgb(102, 100, 100);
+      font-weight: bold;
+      font-size: 15px;
+      font-family: monospace;
+  
+      
+  
+   }
+   .form .continer .card .row .card-group-1:hover{
+      box-shadow: 0px 0px 7px 0px rgb(141, 139, 139) ;
+      transform: scale(1.01,1.01);
+  
+   }
+  
+   .form .continer .card-group .card-group-1:hover{
+      box-shadow: 0px 0px 7px 0px rgb(141, 139, 139) ;
+      transform: scale(1.01,1.01);
+   }
+   .card{
+      padding: 15px;
+      background-color: rgba(0, 0, 0, 0.419);
+      border-radius: 3px;
+   }
+   .card-body{
+      border-radius: 3px;
+      padding: 10px;
+      background-color: rgba(100, 97, 97, 0.297);
+   }
+   .form .continer .card-group .btn-card{
+      margin:10px 0px;
+      width: 100%;
+      border-radius: 4px;
+      padding:  13px;
+      font-weight: bold;
+      background-color: rgba(6, 50, 60, 0.704);
+      background-image: linear-gradient(to right, red ,  white)
+       ;
+       font-size: 20px;
+      color: aliceblue;
+      text-shadow: 0px 0px 2px white;
+   }
+   .form .continer .card-group .btn-card:hover{
+      color: rgba(6, 50, 60, 0.704);
+      text-shadow: 0px 0px 2px  rgba(6, 50, 60, 0.704);
+      background-color: rgba(127, 255, 212, 0.589);
+      transition: 0.6s;
+   transform: scale(1.01,1.01);cursor: pointer;
+   background-image: linear-gradient(to right, rgb(181, 181, 181) ,  rgb(254, 7, 7))
+     
+   }
+  
+   .form .continer .card-group .btn-card-update:hover{
+     color: rgba(6, 50, 60, 0.704);
+     text-shadow: 0px 0px 2px  rgba(6, 50, 60, 0.704);
+     background-color: rgba(48, 55, 56, 0.32);
+     transition: 0.6s;
+  transform: scale(1.01,1.01);cursor: pointer;
+  background-image: linear-gradient(to right, rgb(82, 127, 145) ,  rgb(22, 54, 53))
+    
+  }
+   .contain .contain-1{
+     width: 98%;
+     margin: 90px auto;
+     background-color: black;
+     padding: 20px;
+     border-radius: 3px;
+   }
+   .contain .contain-1 .contain-2{
+     background-color: rgb(173, 173, 145);
+    display: block;
+     padding: 0px;
+     border-radius: 5px;
+     width: 100%;
+   }
+   .contain .contain-1 .contain-2 .table{
+     width: 100%;
+    
+     padding: 10px;
+   }
+   .contain .contain-1 .contain-2 .table tr{
+   font-family: monospace;
+   font-size: 10px;
+   display: flex;
+   justify-content: space-around;
+   width:10px 100%;
+  font-weight: 600;
+  
+   }
+   .table tr th , td{padding:1px;}
+   .contain .contain-1 .contain-2 .table thead tr{
+  width: 100%;
+  font-weight: 600;
+  padding: 0 10px;
+  margin: 0 6px;
+   }
+   .table tbody tr{
+     border-top: 0;
+     font-weight: 600;
+     padding: 1px;
+     border:1px solid rgb(139, 73, 73); ;
+   } 
+   .contain .contain-1 .contain-2 .table tr td{
+  border-left:1px solid rgb(139, 73, 73); ;
+  border-right:1px solid rgb(139, 73, 73); ;
+  width: 100%;
+     padding: 10px 15px;
+     font-weight: 600;
+     text-align: center;
+     align-items: center;
+   }
+   #a1{
+     color: aliceblue;
+     text-align: center;
+     font-size: 30px;
+     align-items: center;
+     text-shadow: 0px 0px 4px rgb(135, 129, 129);
+   }
+   #a1 span{
+     color: black;
+     text-shadow: 0px 0px 2px rgb(0, 0, 0);
+   }
+   #clear{
+     width: 100%;
+     padding: 10px;
+     border-radius: 10px;
+     font-size: 20px;
+     cursor: pointer;
+     background-image: linear-gradient(to right,  rgb(81, 78, 78)40%,  rgb(197, 193, 193));
+   }
+   #clear:hover{
+     text-shadow: 0px 0px 2px  rgba(6, 50, 60, 0.704);
+      background-color: rgba(127, 255, 212, 0.589);
+      transition: 0.7s;
+   transform: scale(1.01,1.01);
+     color: azure;
+     
+     background-image: linear-gradient(to left,  rgb(81, 78, 78)40%,  rgb(197, 193, 193));
+   }
+   i{
+     color: rgb(50, 68, 68);
+     margin:0 5px ;
+     cursor: pointer;
+   }
+  
+   .form .continer .card-group .btn-card-update{
+     margin:10px 0px;
+     width: 100%;
+     border-radius: 4px;
+     padding:  13px;
+     font-weight: bold;
+     background-color: rgba(6, 50, 60, 0.704);
+     background-image: linear-gradient(to right, rgb(39, 191, 194) ,  rgb(93, 119, 119))
+      ;
+      font-size: 20px;
+     color: aliceblue;
+     text-shadow: 0px 0px 2px white;
+  }
+  .invalid{
+     
+     box-shadow: 0px 0px 10px red;
+     border: 2px solid red;
+  }
+  .invalid_span{
+     display: none;
+     
+  }
+  .invalid_number{
+     display: none;
+     
+  }
+  body span{
+     color: rgb(210, 10, 10);
+  }
+  
+  .last-text p{
+     width: 100%;
+     text-align: center;
+     padding: 25px 0;
+     background: rgb(4, 47, 50);
+     font-weight: 300;
+     margin-top: 70px;
+     opacity: 1;
+     font-size: 20px;
+  color: rgb(246, 255, 255);
+     
+  }
+  .last-text p span{
+     color: #0ef;
+     font-family: monospace;
+     font-size: 20px;
+  }
+  
+}

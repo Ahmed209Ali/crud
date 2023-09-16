@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/task.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crud</title>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+</head>
+
+<body>
+    <section id="ahmed">
+    <section class="form">
+        <div class="continer">
+            <h1>New product</h1>
+            <div class="card-body">
+        <div class="card">
+            <div class="card-group">
+                <input id="title" class="card-group-1" type="text" placeholder="product Title">
+                <span class="invalid_span"> You Mast Enter Title</span>
+            </div>
+            <div class="row" id="allcost">
+                <div>  <input class="card-group-1 inputtask" type="number" placeholder="price">
+                    <span class="invalid_span"> You Mast Enter Price</span>
+                    <span class="invalid_number">You Mast Enter Valid Number</span></div>
+
+              <div> <input class="card-group-1 inputtask" type="number" placeholder="tax %">
+                <span class="invalid_span"> You Mast Enter Tax</span>
+                <span class="invalid_number">You Mast Enter Valid Number</span></div>
+               <div> <input class="card-group-1 inputtask" type="number" placeholder="discount">
+                <span class="invalid_span"> You Mast Enter Discount</span>
+                <span class="invalid_number">You Mast Enter Valid Number</span></div>
+               <div><input class="card-group-1" id="total" type="number" placeholder="total" readonly></div>
+                
+            </div>
+            <div class="card-group">
+                <input id="count" class="card-group-1 inputtask" type="number" placeholder="Count">
+                <span class="invalid_span"></span>
+                <span class="invalid_span"> You Mast Enter Count</span>
+                <span class="invalid_number">You Mast Enter Valid Number</span>
+            </div>
+            <div class="card-group">
+                <input id="Dpartment" class="card-group-1" type="text" placeholder="Dpartment">
+                <span class="invalid_span"> You Mast Enter Dpartment</span>
+            </div>
+            <div class="card-group">
+               <button id="btn1" class="btn-card"> Add product</button>
+            </div>
+            
+            </div>
+        </div>
+    </div>
+    </section>
+    <header id="a1"><h1>All <SPan>Products</SPan></h1></header>
+    <section class="contain">
+        <div class="contain-1">
+            <div class="contain-2">
+                <table class="table">
+                    <thead>
+                        <tr>
+                        <th>ID</th>
+                        <th>Title</th>
+                        <th>Price</th>
+                        <th>Tax</th>
+                        <th>Discount</th>
+                        <th>Total</th>
+                        <th>Dpartment</th>
+                        <th >Action</th>
+                    </tr>
+                    </thead>
+                    <tbody id="tbody">
+ 
+                    </tbody>
+                    
+                    
+                   
+                   
+                </table>
+                <button id="clear">
+                    Clear All Products
+                    <span id="span-1"></span>
+                </button>
+            </div>
+        </div>
+        <div class="last-text">
+            <p>Developer With love by <span>Abd-Elshafy</span>© 2023</p>
+        </div>
+    </section>
+</section>
+<script src="./js/app.js"></script>
+</body>
+
+</html>
